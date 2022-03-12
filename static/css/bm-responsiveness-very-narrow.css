@@ -1,4 +1,7 @@
 @media screen {
-    h1 {display:none}
+    h1 {
+	display:none;
+    }
 }
+
 

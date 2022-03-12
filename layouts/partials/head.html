@@ -24,7 +24,11 @@
 */}}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 {{if (not .Site.Params.noStylingAtAll)}}
+
+{{- partial "katex.html" . -}}
+{{- partial "highlight.html" . -}}
 <link rel="stylesheet" href={{"/css/brutalist-minimalist-variables.css" | relURL }}>
 {{with .Site.Params.styleParametersCSS }}
 <link rel="stylesheet" href={{printf "/%s" $.Site.Params.styleParametersCSS | relURL }}>
@@ -48,7 +52,7 @@
 {{with .Site.Params.styleTweaksCSS }}
 <link rel="stylesheet" href={{printf "/%s" $.Site.Params.styleTweaksCSS | relURL }}>
 {{end}}
-{{- partial "katex.html" . -}}
-{{- partial "highlight.html" . -}}
+{{if (not .Site.Params.styleMinimalistOnly)}}
+<link rel="stylesheet" href="/css/bm-printing.css" media="print">
 {{end}}
-
+{{end}}

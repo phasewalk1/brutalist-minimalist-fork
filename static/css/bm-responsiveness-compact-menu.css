@@ -20,8 +20,8 @@
 	margin-right:calc(var(--footer-margin) - var(--body-margin));
 	padding-right:var(--small-padding);
     }
+    
     #subtitle{
 	display:none
     }
-
 }

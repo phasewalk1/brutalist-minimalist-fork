@@ -39,12 +39,6 @@
 	padding-bottom: var(--small-padding);
 	margin-right: calc(0px - var(--small-padding) / 2 - 1px);
     }
-
-    /* nonsense?
-    #menu-button::first-letter{
-	text-decoration:underline;
-    }
-   */
     
     #menu-toggle:checked + *>nav {
 	display: flex;
@@ -61,3 +55,4 @@
 	border:solid var(--decoration-line-color) var(--decoration-line-width);
     }
 }
+

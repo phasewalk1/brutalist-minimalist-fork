@@ -1,0 +1,50 @@
+#TableOfContents {
+    border:	solid 0.5px black;
+    margin-left:  0px;
+    margin-right: 0px;
+    padding-left: 1ex;
+    padding-right: 1ex;
+}
+
+
+:root {
+    --decoration-color:transparent;
+    --decoration-text-color:black;
+    --toc-shade:transparent;
+    text-align:var(--print-justification);
+    font-family:Serif;
+    text-justify:inter-word;
+    font-size:10pt;
+
+}
+
+
+#TableOfContents li > a, a {
+    text-decoration-line:none;
+    color:black;
+    font-weight: bold;
+}
+
+header, footer, #nav-area {
+    background: transparent;
+    color:black;
+}
+
+#nav-area {
+    display:none;
+}
+
+#footer-links {
+    display:none;
+}
+
+header {
+    padding: 1em;
+    margin: 0px;
+    background: transparent;
+    border:solid 0.5px black;
+}
+
+p::first-letter {
+    color: black;
+}

@@ -11,6 +11,15 @@ project adheres to [Semantic Versioning][semver].
 ### Added
 
 - Some missing copyright headers.
+- KaTeX and Highlighting are now included earlier.
+
+### Fixed
+
+- BM-2: Printing style partially ignored by Safari on IPadOS.
+- BM-3: Frame around the header has now vanished in printing style.
+
+BM-3: Firefox doesn't show small borders in print previews, so BM-3 might
+not have been a genuine bug.
 
 ## [0.1.0] - 2022-03-12
 

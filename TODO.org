@@ -1,7 +1,7 @@
 The following is a list of open tasks for the gohugo
 brutalist-minimalist theme (as used by the author internally).
 
-* [0/2] Bugs
+* [2/3] Bugs
 ** TODO TOC vanishes as mobile response (BM-1)
 
 This is b/c currently site menu and toc are nav elements and
@@ -13,7 +13,7 @@ It might make sense to let the toc vanish at smaller screen sizes or
 also make an hamburger from it, though. Regardless this is for later:
 First we must remove the responsiveness response here.
 
-** TODO Printing style partially ignored by Safari on IPadOS (BM-2)
+** DONE Printing style partially ignored by Safari on IPadOS (BM-2)
 :PROPERTIES:
 :ID:       748e2dff-ddd7-4660-8fb0-f38e89ca14f8
 :END:
@@ -22,9 +22,9 @@ Need to rebuild the printing style incrementally with Safari. Maybe
 also move the printing style in own asset to allow for easy user
 override (currently fix part of beyond-minimalism)
 
-** TODO Frame around the header has now vanished in printing style (BM-3)
+** DONE Frame around the header has now vanished in printing style (BM-3)
 
-* [9/15] Release Readiness
+* [10/16] Release Readiness
 ** DONE Try: Use conditional imports for responsiveness, then produce responsiveness.css via assets, dependent on title length.
 ** DONE Glitzersachen needs an overhaul of the resonsive limits? => don't work w/o probs, why?
 => responsiveness limits are more complicated, require substracting menus width etc, which in turn a comlicated to calculate.
@@ -52,6 +52,8 @@ bit of a problem occurs.
 *** DONE README.md
 *** DONE /images/screenshot.png and /images/tn.png
 
+** DONE Extend sample site, better example pages.
+** DONE KaTeX and highlighting should be included earlier
 ** WIP Configure Example Site online, deploy mechs
 
 Note: I can only release after I 
@@ -68,8 +70,6 @@ Note: I can only release after I
 ** TODO Publish at https://github.com/gohugoio/hugoThemesSiteBuilder
 
 
-
-** DONE Extend sample site, better example pages.
 
 * [0/11] Post Release, Pre Production Improvements
 
