@@ -1,0 +1,9 @@
+{{/* TODO: Make this conditional, but using with is problematic */}}
+{{ $page := . }}
+{{ with .Site.Params.copyright }}
+<span id="copyright">©
+  {{with $page.Date}}{{(time .).Year}}{{else}}{{site.Params.copyrightYear}}{{end}}  
+  {{site.Params.copyright}}</span>
+{{ end }}
+
+
