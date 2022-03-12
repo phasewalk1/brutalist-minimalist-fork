@@ -24,7 +24,7 @@ override (currently fix part of beyond-minimalism)
 
 ** DONE Frame around the header has now vanished in printing style (BM-3)
 
-* [10/16] Release Readiness
+* [12/16] Release Readiness
 ** DONE Try: Use conditional imports for responsiveness, then produce responsiveness.css via assets, dependent on title length.
 ** DONE Glitzersachen needs an overhaul of the resonsive limits? => don't work w/o probs, why?
 => responsiveness limits are more complicated, require substracting menus width etc, which in turn a comlicated to calculate.
@@ -54,6 +54,8 @@ bit of a problem occurs.
 
 ** DONE Extend sample site, better example pages.
 ** DONE KaTeX and highlighting should be included earlier
+** DONE Check license notes again
+** DONE make a thumbnail and a screenshot
 ** WIP Configure Example Site online, deploy mechs
 
 Note: I can only release after I 
@@ -64,14 +66,12 @@ Note: I can only release after I
 *** TODO Deployment Script Reading from config.toml
 (Restriction not to read the full config system of hugo is accepted FTM)
 ** TODO Lets Encrypt for brutalist-minimalist.glitzersachen.de
-** TODO Check license notes again
-** TODO make a thumbnail and a screenshot
 ** TODO Create first git version (local, publish to github and gitlabs)
 ** TODO Publish at https://github.com/gohugoio/hugoThemesSiteBuilder
 
 
 
-* [0/11] Post Release, Pre Production Improvements
+* [0/14] Post Release, Pre Production Improvements
 
 ** TODO Extend the README, show of some highlights.
 ** TODO Complete Documentation
