@@ -24,6 +24,11 @@ override (currently fix part of beyond-minimalism)
 
 ** DONE Frame around the header has now vanished in printing style (BM-3)
 
+** TODO Code styling hacks need cleanup (BM-4)
+Monospace code styling is "improved" in beyond-minimalism.css, but
+then needs to be overridden in a rather fargile fashion in
+bm-printing.css. This needs to be refactored from ground up.
+
 * [12/16] Release Readiness
 ** DONE Try: Use conditional imports for responsiveness, then produce responsiveness.css via assets, dependent on title length.
 ** DONE Glitzersachen needs an overhaul of the resonsive limits? => don't work w/o probs, why?
@@ -56,6 +61,10 @@ bit of a problem occurs.
 ** DONE KaTeX and highlighting should be included earlier
 ** DONE Check license notes again
 ** DONE make a thumbnail and a screenshot
+** TODO [0/2] Manual Regression Testing (specifically printing + markup)
+*** TODO Fennec @ Android
+*** TODO Safari @ IPad
+*** TODO Firefox @ IPad
 ** WIP Configure Example Site online, deploy mechs
 
 Note: I can only release after I 
@@ -97,6 +106,9 @@ different things. I only mean one of them.
 
 * [0/9] Post Production Improvements
 
+** TODO The print style needs to be refactored to variables (at least partially)
+** TODO ASCII Graphics should become a short code!
+so that we can adjust the line high appropriately there and remove/avoid the frame in print styling.
 ** TODO Examine possibilities of inline highlighted code
 
 This requires more than modifying:
@@ -133,6 +145,7 @@ creating line drawings?
 ... we'd rather turn off all stylesheets for browsers that don't support css3 and fall back to default html.
 Should also have an FAQ on this, linked from the footer or below.
 
+** TODO Is it possible to embed plantuml?
 
 * [0/1] Backend/Frontend stuff
 

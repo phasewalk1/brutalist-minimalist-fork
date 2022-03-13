@@ -16,8 +16,11 @@ tellus.  Donec pretium posuere tellus. [$ \psi^2 > a^2 $]. Proin quam
 nisl, tincidunt et -- [$ a < b $] -- mattis eget, convallis nec,
 purus: [$ \psi^2 > a^2 $].
 
-{{< highlight c "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
+{{< highlight c "linenos=table,hl_lines=5 7-8,linenostart=199" >}}
+
 #include <stdio.h>
+
+typedef int foo;
 
 int main(int argc, argv char**)
 {
@@ -30,6 +33,8 @@ int main(int argc, argv char**)
 
 Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin
 quam nisl, tincidunt et, mattis eget, convallis nec, purus.  
+Here is the function ```main``` of *Hello World*.
+
 
 ```C
 #include <stdio.h>
@@ -44,6 +49,15 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique
 diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam
 vestibulum accumsan nisl.
+
+
+	#include <stdio.h>
+
+	int main(int argc, argv char**)
+	{
+		printf("%s\n", "hello world");
+	}
+
 
 ### Pellentesque dapibus 
 

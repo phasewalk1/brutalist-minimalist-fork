@@ -12,6 +12,8 @@ project adheres to [Semantic Versioning][semver].
 
 - Some missing copyright headers.
 - KaTeX and Highlighting are now included earlier.
+- Source URL below the footer
+- Styling code for printing as black and white.
 
 ### Fixed
 
@@ -20,6 +22,10 @@ project adheres to [Semantic Versioning][semver].
 
 BM-3: Firefox doesn't show small borders in print previews, so BM-3 might
 not have been a genuine bug.
+
+### Known Bugs
+
+- BM-4: Code styling and overriding is to hacky.
 
 ## [0.1.0] - 2022-03-12
 
