@@ -26,4 +26,9 @@
   {{- partial "copyright-notice.html" .}}
   <span id="footer-links"><a href="imprint.html>">Impressum</a></span>
 </footer>
-<p id="source-url">Source: <a href={{ref . .File.Path | relURL}}>{{ref . .File.Path}}</a></p>
+{{$page := .}}{{$parent := "."}}
+<p id="source-url">Source: <a href={{ with .File }}{{ref $page .Path | relURL}}{{else}}{{ref $page $parent | relURL}}{{end}}>{{ with .File }}{{ref $page .Path | absURL}}{{else}}{{ref $page $parent | absURL}}{{end}}</a></p>
+
+
+
+

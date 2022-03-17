@@ -1,7 +1,7 @@
 The following is a list of open tasks for the gohugo
 brutalist-minimalist theme (as used by the author internally).
 
-* [2/3] Bugs
+* [3/5] Bugs
 ** TODO TOC vanishes as mobile response (BM-1)
 
 This is b/c currently site menu and toc are nav elements and
@@ -28,6 +28,9 @@ override (currently fix part of beyond-minimalism)
 Monospace code styling is "improved" in beyond-minimalism.css, but
 then needs to be overridden in a rather fargile fashion in
 bm-printing.css. This needs to be refactored from ground up.
+
+** DONE Warning: .File.Path on zero object (BM-5)
+"WARN 2022/03/13 23:50:09 .File.Path on zero object. Wrap it in if or with: {{ with .File }}{{ .Path }}{{ end }"
 
 * [12/16] Release Readiness
 ** DONE Try: Use conditional imports for responsiveness, then produce responsiveness.css via assets, dependent on title length.

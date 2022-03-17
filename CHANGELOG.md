@@ -19,13 +19,11 @@ project adheres to [Semantic Versioning][semver].
 
 - BM-2: Printing style partially ignored by Safari on IPadOS.
 - BM-3: Frame around the header has now vanished in printing style.
-
-BM-3: Firefox doesn't show small borders in print previews, so BM-3 might
-not have been a genuine bug.
+- BM-5: Warning: .File.Path on zero object.
 
 ### Known Bugs
 
-- BM-4: Code styling and overriding is to hacky.
+- BM-4: Code styling and overriding is too hacky.
 
 ## [0.1.0] - 2022-03-12
 
