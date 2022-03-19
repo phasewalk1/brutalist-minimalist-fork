@@ -2,7 +2,7 @@
 title:    "Ipsum"
 date:     2022-03-05T11:48:28+01:00
 summary:  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.
-draft:    true
+draft:    false
 ---
 
 Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non

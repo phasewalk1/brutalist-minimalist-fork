@@ -1,7 +1,7 @@
 ---
 title: "Lorem Ipsum"
 date: 2022-03-05T11:25:06+01:00
-draft: true
+draft: false
 ---
 
 Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.

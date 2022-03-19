@@ -1,7 +1,7 @@
 ---
 title: "Ipsum"
 date: 2022-03-05T11:29:09+01:00
-draft: true
+draft: false
 summary: Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.
 ---
 

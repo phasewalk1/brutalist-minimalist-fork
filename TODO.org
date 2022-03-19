@@ -32,7 +32,7 @@ bm-printing.css. This needs to be refactored from ground up.
 ** DONE Warning: .File.Path on zero object (BM-5)
 "WARN 2022/03/13 23:50:09 .File.Path on zero object. Wrap it in if or with: {{ with .File }}{{ .Path }}{{ end }"
 
-* [12/16] Release Readiness
+* [13/17] Release Readiness
 ** DONE Try: Use conditional imports for responsiveness, then produce responsiveness.css via assets, dependent on title length.
 ** DONE Glitzersachen needs an overhaul of the resonsive limits? => don't work w/o probs, why?
 => responsiveness limits are more complicated, require substracting menus width etc, which in turn a comlicated to calculate.
@@ -77,7 +77,7 @@ Note: I can only release after I
 *** TODO Deployment Script with temp hardcoded targets
 *** TODO Deployment Script Reading from config.toml
 (Restriction not to read the full config system of hugo is accepted FTM)
-** TODO Lets Encrypt for brutalist-minimalist.glitzersachen.de
+** DONE Lets Encrypt for brutalist-minimalist.glitzersachen.de
 ** TODO Create first git version (local, publish to github and gitlabs)
 ** TODO Publish at https://github.com/gohugoio/hugoThemesSiteBuilder
 

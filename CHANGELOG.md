@@ -20,6 +20,7 @@ project adheres to [Semantic Versioning][semver].
 - BM-2: Printing style partially ignored by Safari on IPadOS.
 - BM-3: Frame around the header has now vanished in printing style.
 - BM-5: Warning: .File.Path on zero object.
+- draft:true -> draft:false for exampleSite pages
 
 ### Known Bugs
 
