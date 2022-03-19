@@ -14,6 +14,8 @@ project adheres to [Semantic Versioning][semver].
 - KaTeX and Highlighting are now included earlier.
 - Source URL below the footer
 - Styling code for printing as black and white.
+- scripts/deploy to upload pages to a server dependent on configuration in
+  config.toml. For details see 'scripts/deploy --help'.
 
 ### Fixed
 

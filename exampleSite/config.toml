@@ -53,7 +53,6 @@ relativeURLs = true
 
 [deployment]
 
-	testing    = "/srv/http/glitzersachen-testing"
-	production = "ssh:www.glitzersachen.de/glitzersachen"
-	
+	testing    = "/srv/http/bm-testing"
+	production = "rsync://web-op@www.glitzersachen.de:/var/www/html/brutalist-minimalist"
 
