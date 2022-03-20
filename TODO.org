@@ -78,12 +78,12 @@ Note: I can only release after I
 Git version can be published earlier, but example site will be dead
 ** DONE Sample pages should follow a different order than day - attribute order?
 ** TODO Create first git version (local, publish to github and gitlabs)
+** TODO Publish at https://github.com/gohugoio/hugoThemesSiteBuilder
+
 ** TODO [0/3] Manual Regression Testing (specifically printing + markup), 0.1.1rc
 *** TODO Fennec @ Android
 *** TODO Safari @ IPad
 *** TODO Firefox @ IPad
-** TODO Publish at https://github.com/gohugoio/hugoThemesSiteBuilder
-
 
 * [0/14] Post Release, Pre Production Improvements
 

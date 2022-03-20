@@ -24,6 +24,7 @@ project adheres to [Semantic Versioning][semver].
   "order" now (instead of meaningless date), list will be titled
   "Documentation" instead of "Documentations".
 - In exampleSite: The about/site page.
+- Completed theme.toml.
 
 ### Fixed
 
@@ -31,6 +32,7 @@ project adheres to [Semantic Versioning][semver].
 - BM-3: Frame around the header has now vanished in printing style.
 - BM-5: Warning: .File.Path on zero object.
 - draft:true -> draft:false for exampleSite pages
+- Fixed typos in README
 
 ### Known Bugs
 
