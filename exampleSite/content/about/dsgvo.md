@@ -2,7 +2,7 @@
 title:    "Datenschutzerklärung"
 date:     2022-03-20T15:43:14+01:00
 summary:
-draft:    true
+draft:    false
 ---
 
 ### Einleitung {#m14}
