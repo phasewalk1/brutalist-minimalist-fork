@@ -32,7 +32,7 @@ bm-printing.css. This needs to be refactored from ground up.
 ** DONE Warning: .File.Path on zero object (BM-5)
 "WARN 2022/03/13 23:50:09 .File.Path on zero object. Wrap it in if or with: {{ with .File }}{{ .Path }}{{ end }"
 
-* [14/17] Release Readiness
+* [16/19] Release Readiness
 ** DONE Try: Use conditional imports for responsiveness, then produce responsiveness.css via assets, dependent on title length.
 ** DONE Glitzersachen needs an overhaul of the resonsive limits? => don't work w/o probs, why?
 => responsiveness limits are more complicated, require substracting menus width etc, which in turn a comlicated to calculate.
@@ -74,9 +74,10 @@ Note: I can only release after I
 *** DONE Deployment Script Reading from config.toml
 (Restriction not to read the full config system of hugo is accepted FTM)
 ** DONE Lets Encrypt for brutalist-minimalist.glitzersachen.de
-** TODO Create first git version (local, publish to github and gitlabs)
-** TODO Public version also need the german TMG/DSGVO declarations. What a nuisance
+** DONE Public version also need the german TMG/DSGVO declarations. What a nuisance
 Git version can be published earlier, but example site will be dead
+** DONE Sample pages should follow a different order than day - attribute order?
+** TODO Create first git version (local, publish to github and gitlabs)
 ** TODO [0/3] Manual Regression Testing (specifically printing + markup), 0.1.1rc
 *** TODO Fennec @ Android
 *** TODO Safari @ IPad
@@ -86,6 +87,7 @@ Git version can be published earlier, but example site will be dead
 
 * [0/14] Post Release, Pre Production Improvements
 
+** TODO Factor out partials: Subpages by order, Subpages by date
 ** TODO Extend the README, show of some highlights.
 ** TODO Complete Documentation
 ** TODO Integrate footer in responsiveness

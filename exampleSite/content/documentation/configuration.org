@@ -1,6 +1,7 @@
 #+title: Configuring the Brutalist-Minimalist Style
 #+date: 2022-02-27T00:04:00+00:00
 #+draft: false
+#+order: 200
 
 (TBD) Explains how a site in the brutalist-minimalist style can be
 configured --- first how the hugo configiguration should look like,

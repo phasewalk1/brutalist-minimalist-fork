@@ -3,6 +3,7 @@ title: "Math Demonstration"
 date:  2022-02-14T23:27:50+01:00
 draft: false
 math:  true
+order: 880
 ---
 
 (TBD) Demonstrates how to use math --- courtesy of [$ K^AT_EX $] --- in the

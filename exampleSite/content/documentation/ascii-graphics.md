@@ -2,6 +2,7 @@
 title: "Character Graphics Test"
 date: 2022-02-12T23:27:50+01:00
 draft: false
+order: 880
 ---
 
 How do ASCII and unicode character based graphics come out?

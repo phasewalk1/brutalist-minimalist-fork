@@ -20,6 +20,9 @@ project adheres to [Semantic Versioning][semver].
   requires this if I serve the demo site somehwere in the web).
 - New partial "obligatory-links" for obligatory links that have to turn up
   in header and footer.
+- In exampleSite: Documentation pages will be sorted by page attribute
+  "order" now (instead of meaningless date), list will be titled
+  "Documentation" instead of "Documentations".
 
 ### Fixed
 

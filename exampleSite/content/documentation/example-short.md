@@ -3,6 +3,7 @@ title: "Short Example Page"
 date:  2022-02-14T23:27:50+01:00
 draft: false
 math:  true
+order: 945
 ---
 
 Showing how some elements come out in the [Hugo][] theme

@@ -3,6 +3,7 @@ title: "Second Example Page"
 date:  2022-02-14T23:27:50+01:00
 draft: false
 math:  true
+order: 960
 ---
 
 Showing how various elements come out in the [Hugo][] theme
