@@ -16,6 +16,10 @@ project adheres to [Semantic Versioning][semver].
 - Styling code for printing as black and white.
 - scripts/deploy to upload pages to a server dependent on configuration in
   config.toml. For details see 'scripts/deploy --help'.
+- German "Datenschutzerkärung" and imprint to demo site (German law
+  requires this if I serve the demo site somehwere in the web).
+- New partial "obligatory-links" for obligatory links that have to turn up
+  in header and footer.
 
 ### Fixed
 

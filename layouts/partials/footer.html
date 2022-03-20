@@ -24,7 +24,7 @@
 */}}
 <footer>
   {{- partial "copyright-notice.html" .}}
-  <span id="footer-links"><a href="imprint.html>">Impressum</a></span>
+  <span id="footer-links">{{- partial "obligatory-links.html" .}}</span>
 </footer>
 {{$page := .}}{{$parent := "."}}
 <p id="source-url">Source: <a href={{ with .File }}{{ref $page .Path | relURL}}{{else}}{{ref $page $parent | relURL}}{{end}}>{{ with .File }}{{ref $page .Path | absURL}}{{else}}{{ref $page $parent | absURL}}{{end}}</a></p>

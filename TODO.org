@@ -88,6 +88,9 @@ Git version can be published earlier, but example site will be dead
 
 ** TODO Extend the README, show of some highlights.
 ** TODO Complete Documentation
+** TODO Integrate footer in responsiveness
+- around activation of narrow (when copyright and footer links don't fit in a line) => witch to flushleft and stack footer links
+  Make copyright and footer links smaller.
 ** TODO Describe Responsiveness (see Screenshots)
 ** TODO Test with Chrome
 ** TODO Consider effect of box drawing hacks on "normal" code display w/o known language.
