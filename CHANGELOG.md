@@ -23,6 +23,7 @@ project adheres to [Semantic Versioning][semver].
 - In exampleSite: Documentation pages will be sorted by page attribute
   "order" now (instead of meaningless date), list will be titled
   "Documentation" instead of "Documentations".
+- In exampleSite: The about/site page.
 
 ### Fixed
 
