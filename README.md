@@ -23,4 +23,4 @@ What the [Brutalist-Minimalist][bm] theme tries to achieve is:
   [brutalist web design]: https://brutalist-web.design/
   [copeland]:             https://twitter.com/davetron5000
   [the ugly trend]:       https://medium.com/envato/brutalism-the-ugly-web-design-trend-taking-over-the-internet-2dbc8e822e37
-  [revival rumours];     https://www.nexgi.com/design/brutalist-web-design-2019/
+  [revival rumours]:     https://www.nexgi.com/design/brutalist-web-design-2019/
