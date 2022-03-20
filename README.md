@@ -1,6 +1,6 @@
 # Brutalist-Minimalist Theme
 
-[Brutalist-Minimalist][bm] is a [Hugo][] theme inspired by [Deid
+[Brutalist-Minimalist][bm] is a [Hugo][] theme inspired by [David
 Copeland's][copeland] [manifesto on brutalist web design][brutalist
 web design]: Web "content true to its construction".
 
