@@ -118,3 +118,12 @@ pre > code {
     color: blue;
     /* text-decoration-line:none; */ /* propose not to use this */
 }
+
+.banner {
+    background: var(--toc-shade);
+    display: block;
+    padding:0.5em;
+    margin:0.2em;
+    font-size: 400%;
+    color:var(--light-text-color);
+}

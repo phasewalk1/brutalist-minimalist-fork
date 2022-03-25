@@ -6,6 +6,16 @@ Theme][bm]) will be documented in this file.
 The format is based on [Keep a Changelog][keepachangelog], and this
 project adheres to [Semantic Versioning][semver].
 
+## [UNRELEASED]
+
+### Added
+
+- Simple banner short code and styling. This creates a box in 400% font, a
+  lighter text color and --toc-shade as background. Current purpose:
+  Banners for "Website under construction".
+  
+- Copyright header in some static css.
+
 ## [0.2.0] - 2022-03-20
 
 ### Added
