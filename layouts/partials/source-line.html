@@ -22,8 +22,12 @@
    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
    
 */}}
-<footer>
-  {{- partial "copyright-notice.html" .}}
-  <span id="footer-links">{{- partial "obligatory-links.html" .}}</span>
-</footer>
-{{- partial "source-line.html" .}}
+{{$page := .}}
+{{ $source := "" }}
+{{if .IsPage}}
+{{$source = ref $page .Path}}
+{{else}}
+{{$source = ref $page "."}}
+{{ end }}
+<p id="source-url">Source: <a href={{$source | relURL}}>{{$source | absURL}}</a>, {{time.Format "2006-01-02" .Date}}</p>
+

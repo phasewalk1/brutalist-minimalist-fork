@@ -85,9 +85,14 @@ Git version can be published earlier, but example site will be dead
 *** TODO Safari @ IPad
 *** TODO Firefox @ IPad
 
-* [0/14] Post Release, Pre Production Improvements
+* [1/21] Post Release, Pre Production Improvements
 
-** TODO Add document date to source line
+** TODO For the books/media database: Render the list more bib style. Shall we render by some major category?
+Also: Change to partials, passing the record (page) as parameter. Dito for the table format itself.
+** DONE Add document date to source line
+** TODO Update field, missing date field
+- Missing date => Don't render a source line
+- Update set   => Render this as a date.
 ** TODO Document responsiveness vars properly in config.toml (we still have the old vars there!)
 ** TODO Make clalculated limits overrideable as well
 ** TODO Think about reducing H-sizes (and replace by fat/grey) in narrow and very-narrow mode.

@@ -12,9 +12,16 @@ project adheres to [Semantic Versioning][semver].
 
 - Simple banner short code and styling. This creates a box in 400% font, a
   lighter text color and --toc-shade as background. Current purpose:
-  Banners for "Website under construction".
-  
+  Banners for "Website under construction".  
 - Copyright header in some static css.
+- Now source line contains page date. Obviously only makes sense if the date
+  field is properly maintained.
+
+### Fixed
+
+- For page backed tags, the source line did not work. Repaired.
+
+
 
 ## [0.2.0] - 2022-03-20
 
