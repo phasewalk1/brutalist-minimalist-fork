@@ -16,11 +16,13 @@ project adheres to [Semantic Versioning][semver].
 - Copyright header in some static css.
 - Now source line contains page date. Obviously only makes sense if the date
   field is properly maintained.
+- Database for (primarily) freebooks. Create pages under content/book,
+  every page is a record with the required metadata.
+- Better rendering for tags (but still not perfect) 
 
 ### Fixed
 
 - For page backed tags, the source line did not work. Repaired.
-
 
 
 ## [0.2.0] - 2022-03-20

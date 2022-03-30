@@ -105,3 +105,29 @@ li > p {
     display:none;
 }
 
+.booktable {
+    border-collapse: separate;
+    border: solid var(--decoration-line-color) 1px;
+    padding-right: 1em;
+}
+
+.booktable th {
+    text-align: left;
+    vertical-align: top;
+    font-weight: normal;
+    font-style:  italic;
+    color: var(--light-text-color);
+    background: var(--toc-shade);
+    padding: 0.1em;
+    padding-top: 0.5ex;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 80%;
+    white-space: nowrap;
+}
+
+
+.booktable td {
+    padding-left: 1em;
+}
+

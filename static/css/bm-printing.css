@@ -152,3 +152,9 @@ footer, #source-url, #copyright, pre, code, .highlight {
 main p, footer, code, pre {
     page-break-inside:avoid;
 }
+
+.disclaimer-sections{
+    background: inherit;
+    padding:0px;
+}
+

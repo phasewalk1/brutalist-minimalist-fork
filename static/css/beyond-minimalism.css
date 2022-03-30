@@ -127,3 +127,22 @@ pre > code {
     font-size: 400%;
     color:var(--light-text-color);
 }
+
+.booktable {
+    width:100%;
+}
+
+.disclaimer-list{
+    padding-left: var(--bullet-width);
+    font-size: 80%;
+}
+
+.disclaimer-sections{
+    font-size: 80%;
+    background: var(--toc-shade);
+    padding-left: 1em;
+    padding-top: 1ex;
+    padding-right: 2em;
+    padding-bottom:1ex;
+}
+
