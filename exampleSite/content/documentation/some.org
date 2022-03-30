@@ -1,6 +1,6 @@
 #+title:        Using Org-Mode with Hugo and Brutalist-Minimalist Style
 #+date:         2022-02-27
-#+tags[]:       howto, emacs, hugo, brutalist-minimalist
+#+tags[]:       howto emacs hugo brutalist-minimalist
 #+order:        800
 
 This text shows how to use org-mode files as input format for web

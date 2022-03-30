@@ -23,7 +23,7 @@ project adheres to [Semantic Versioning][semver].
 ### Fixed
 
 - For page backed tags, the source line did not work. Repaired.
-
+- Removed commas in tags in sample org file. These became part of the tags.
 
 ## [0.2.0] - 2022-03-20
 
