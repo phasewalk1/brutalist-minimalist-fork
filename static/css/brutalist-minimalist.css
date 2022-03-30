@@ -126,6 +126,11 @@ li > p {
     white-space: nowrap;
 }
 
+.booktable td {
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;    
+}
+
 
 .booktable td {
     padding-left: 1em;

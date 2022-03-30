@@ -85,6 +85,7 @@ Git version can be published earlier, but example site will be dead
 *** TODO Safari @ IPad
 *** TODO Firefox @ IPad
 
+
 * [3/26] Post Release, Pre Production Improvements
 
 ** DONE Book record template
@@ -92,6 +93,10 @@ Git version can be published earlier, but example site will be dead
 ** DONE Change books listing (use topic as separator)
 - Topic is subheading, group by them
 - Use bib style listing (Author/Title/Year only, last tags) => factor out as partial.
+** TODO Add a next edition/version field to the book records
+- a: in the template
+- b: book/single.html
+** TODO List tags in pages and blog posts (where?)
 ** TODO Shortcode to create links to tags, use this in tag/prolog to link to "logic programming"
 ** TODO For the books/media database: Render the list more bib style. Shall we render by some major category?
 Also: Change to partials, passing the record (page) as parameter. Dito for the table format itself.
