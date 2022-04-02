@@ -22,6 +22,7 @@ project adheres to [Semantic Versioning][semver].
 - Added link to tags/ to landing page of example site
 - Books are now rendered in bibliography style in book/ (for the moment
   only there)
+- Tags now also give the item type (book, blogpost, documentation).  
 
 ### Fixed
 
