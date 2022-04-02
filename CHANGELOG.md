@@ -30,6 +30,10 @@ project adheres to [Semantic Versioning][semver].
 - Removed commas in tags in sample org file. These became part of the tags.
 - Improved text of link to books database on landing page.
 
+### Changed
+
+- When presenting books, white space between book "card" and disclaimers.
+
 ## [0.2.0] - 2022-03-20
 
 ### Added

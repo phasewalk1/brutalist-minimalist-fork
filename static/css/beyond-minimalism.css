@@ -140,6 +140,7 @@ pre > code {
 .disclaimer-sections{
     font-size: 80%;
     background: var(--toc-shade);
+    margin-top:5ex;
     padding-left: 1em;
     padding-top: 1ex;
     padding-right: 2em;
