@@ -20,4 +20,28 @@
    COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
    IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.   
-*/}}<a href="{{ .RelPermalink }}">{{.Title}}</a> &mdash; <span class="page-summary">{{.Summary}}</span>
+*/}}
+{{- $page := . -}}
+{{- $formerly := (default false (index .Params "publisher_formerly")) -}}
+{{- $publisher := .Params.publisher }}
+{{- with .Params.author -}}{{.}}. {{end}}<a href="{{ .RelPermalink }}" class="page-title">{{.Title}}</a>
+{{- with .Params.year -}}
+{{- with $page.Params.publisher -}}
+. {{if $formerly}}<a href={{"/disclaimer/publisher-formerly" | relURL}}>Formerly</a> {{end}}{{$page.Params.publisher}}, {{$page.Params.year}}
+{{end}}
+{{end}}
+{{- with .Summary }}
+&mdash; <span class="page-summary">{{.}}</span>
+{{end}}
+{{with .Params.tags }}
+Keywords:
+{{- range . }}
+<a href={{replace . " " "-" | printf "/tags/%s" | relURL}}>{{.}}</a>
+{{- end}}.
+{{end}}
+
+
+{{/* TODO:
+- guess type
+- optionally render types (dep on named parameter)
+*/}}

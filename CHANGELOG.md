@@ -20,6 +20,8 @@ project adheres to [Semantic Versioning][semver].
   every page is a record with the required metadata.
 - Better rendering for tags (but still not perfect) 
 - Added link to tags/ to landing page of example site
+- Books are now rendered in bibliography style in book/ (for the moment
+  only there)
 
 ### Fixed
 

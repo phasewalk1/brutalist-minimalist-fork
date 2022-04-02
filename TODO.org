@@ -96,6 +96,7 @@ Git version can be published earlier, but example site will be dead
 ** TODO Add a next edition/version field to the book records
 - a: in the template
 - b: book/single.html
+** TODO Docs for books database.
 ** TODO List tags in pages and blog posts (where?)
 ** TODO Shortcode to create links to tags, use this in tag/prolog to link to "logic programming"
 ** TODO For the books/media database: Render the list more bib style. Shall we render by some major category?
