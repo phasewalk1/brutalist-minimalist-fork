@@ -19,11 +19,13 @@ project adheres to [Semantic Versioning][semver].
 - Database for (primarily) freebooks. Create pages under content/book,
   every page is a record with the required metadata.
 - Better rendering for tags (but still not perfect) 
+- Added link to tags/ to landing page of example site
 
 ### Fixed
 
 - For page backed tags, the source line did not work. Repaired.
 - Removed commas in tags in sample org file. These became part of the tags.
+- Improved text of link to books database on landing page.
 
 ## [0.2.0] - 2022-03-20
 

@@ -13,7 +13,8 @@ Homepage.
  - [Documentation how to apply the style and how to use the style](documentation/).
  - [Lorem ipsum blindtext](lorem/).
  - [Some sample blog posts](blog/), see also below for the most recent 3.
- - [An online books database](book/).
+ - [An online books database example](book/).
+ - [The tags example](tags/).
 
   [Gohugo]: https://gohugo.io/
 
