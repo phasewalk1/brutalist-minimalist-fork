@@ -6,7 +6,7 @@ summary:  No direct download link can be provided.
           According to our understanding, the copyright holders or the authors
           require that you go via the item homepage.
 
-draft:    true
+draft:    false
 ---
 
 We cannot give you a direct download link here for your

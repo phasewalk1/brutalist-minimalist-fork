@@ -8,7 +8,7 @@ summary:  There is no homepage available for this book/work.
           using the search engine of your choice or obtain historical 
           information from the wayback machine.
 
-draft:    true
+draft:    false
 ---
 
 We could not find a recent homepage for this work, nor an archived

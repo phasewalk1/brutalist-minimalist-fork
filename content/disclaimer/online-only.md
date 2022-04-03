@@ -4,7 +4,7 @@ date:     2022-03-30T18:50:14+02:00
 
 summary:  No downloadable version is available, this work is only for online reading.
 
-draft:    true
+draft:    false
 ---
 
 There is no PDF or HTML file bundle for downloading and offline

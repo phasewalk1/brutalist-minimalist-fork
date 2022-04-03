@@ -6,7 +6,7 @@ summary:  The publisher given is the publisher of an earlier version.
           The version referenced has probably been modified 
           compared with the version originally published by the given publisher.
 
-draft:    true
+draft:    false
 ---
 
 This book/work was formerly published by the publisher we have

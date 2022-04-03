@@ -5,7 +5,7 @@ date:     2022-03-30T18:50:14+02:00
 summary:  A direct download link is available, regardless it is strongly recommended that you
           verify the copyright status, e.g. by consulting the frontmatter or the homepage.
 
-draft:    true
+draft:    false
 ---
 
 We have given a direct download link to the book/work, since this is,

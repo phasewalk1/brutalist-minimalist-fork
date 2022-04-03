@@ -29,6 +29,7 @@ project adheres to [Semantic Versioning][semver].
 - For page backed tags, the source line did not work. Repaired.
 - Removed commas in tags in sample org file. These became part of the tags.
 - Improved text of link to books database on landing page.
+- draft=false for (canned) disclaimer pages.
 
 ### Changed
 

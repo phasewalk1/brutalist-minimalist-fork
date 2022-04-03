@@ -93,6 +93,8 @@ Git version can be published earlier, but example site will be dead
 ** DONE Change books listing (use topic as separator)
 - Topic is subheading, group by them
 - Use bib style listing (Author/Title/Year only, last tags) => factor out as partial.
+** TODO Blog post lists should show the date (in ISO)
+** TODO Every mape should show the tags. Where?
 ** TODO Add a next edition/version field to the book records
 - a: in the template
 - b: book/single.html

@@ -6,7 +6,7 @@ summary:  We are not making legally binding statements on the copright status of
           It is necessary that you verify the copyright status yourself, 
           e.g. by consulting the frontmatter or the homepage.
 
-draft:    true
+draft:    false
 ---
 
 We are not making any legally binding statements on the copyright
